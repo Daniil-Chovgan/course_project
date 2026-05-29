@@ -1,0 +1,20 @@
+struct Params {
+    float initial_guess[];
+    float tolerance;
+    int max_iterations;
+}
+
+struct Result {
+    float minimum_point[];
+    float minimum_value;
+    int iterations;
+    bool success;
+}
+
+protocol C Request {
+    Params params;
+}
+
+protocol Typst Response {
+    Result result;
+}
