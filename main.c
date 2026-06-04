@@ -1,4 +1,4 @@
-#include "protocol.h" // Генерируется из nelder_mead.prot
+#include "protocol.h"
 #include <emscripten.h>
 #include <math.h>
 #include <stdlib.h>
